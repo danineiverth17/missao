@@ -5,48 +5,46 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
-{
-enunciado: "Assim que saiu da escola você se depara com vários desafios, um dos principais é lidar com suas emoções e sentimentos. Qual o primeiro pensamento?",
-alternativas: [
-{
-texto: "Isso é assustador!",
-afirmacao: "afirmação"
-},
-{
-texto: "Isso é tranquilo!",
-afirmacao: "afirmação"
-}
-]
-},
-{
-enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
-alternativas: [
-{
-texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-afirmacao: "afirmação"
-},
-{
-texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-afirmacao: "afirmação"
-}
-]
-},
-{
-enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-alternativas: [
-{
-texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-afirmacao: "afirmação"
-},
-{
-texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-afirmacao: "afirmação"
-}
-]
-},
-{
-enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-alternativas: [
-{
-texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-afirmacao: "afirmação"
+    {
+        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        alternativas: [
+            {
+                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
+                afirmacao: "afirmacao1"
+            },
+            {
+                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
+                afirmacao: "afirmacao2"
+            }
+           
+        ]
+    },
+    {
+        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        alternativas: [
+            {
+                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
+                afirmacao: "afirmacao3"
+            },
+            {
+                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
+                afirmacao: "afirmacao4"
+            }
+           
+        ]
+    },
+    {
+        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        alternativas: [
+            {
+                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
+                afirmacao:"afirmacao5"
+            },
+            {
+                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
+                afirmacao:"afirmacao6"
+            }
+        ]
+    }
+];
+
